@@ -11,13 +11,16 @@
         android:theme="@style/Theme.Demos">
         <activity android:name=".RoomDatabaseMainClass"></activity>
         <activity android:name=".Views.MainActivity">
+
+        </activity>
+        <activity android:name=".Views.ViewPager2Activity" />
+        <activity android:name=".Views.JavaDemos" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Views.ViewPager2Activity" />
     </application>
 
 </manifest>
